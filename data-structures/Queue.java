@@ -6,7 +6,7 @@ class Queue <T> {
   
   public Queue() {
     this.front = this.rear = 0;
-    queue = new int[MAX];
+    queue = new T[MAX];
   }
   
   public boolean isEmpty() {
